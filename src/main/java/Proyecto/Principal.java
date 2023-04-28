@@ -21,45 +21,45 @@ public class Principal {
     
     public static void insertarDatosAeropuerto(Areopuerto aero[]) {
         
-       aero[0] = new AeropuertoPublico(400,"william","merida","mexico");
-       aero[0].insertarCompania(new Compania("aeroGio"));
-       aero[0].insertarCompania(new Compania("aeroSalim"));
-       aero[0].getCompania("aeroGio").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
-       aero[0].getCompania("aeroGio").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
-       aero[0].getCompania("aeroSalim").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
-       aero[0].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("william", "489320","mexicano"));
-       aero[0].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("salim", "489320","peruano"));
-       aero[0].getCompania("aeroSalim").getVuelo("2").insertarPasajero(new Pasajero("Adrina", "489320","mexicano"));
+       aero[0] = new AeropuertoPublico(400,"CDMX","Mexico","cdmx");
+       aero[0].insertarCompania(new Compania("Vuelos SC"));
+       aero[0].insertarCompania(new Compania("Vuelos Goku"));
+       aero[0].getCompania("Vuelos SC").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
+       aero[0].getCompania("Vuelos SC").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
+       aero[0].getCompania("Vuelos Goku").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
+       aero[0].getCompania("Vuelos SC").getVuelo("1").insertarPasajero(new Pasajero("Fernando", "489320","mexicano"));
+       aero[0].getCompania("Vuelos SC").getVuelo("1").insertarPasajero(new Pasajero("Salim", "489320","peruano"));
+       aero[0].getCompania("Vuelos Goku").getVuelo("2").insertarPasajero(new Pasajero("Adrian", "489320","mexicano"));
        
-       aero[1] = new AeropuertoPublico(400,"william","merida","mexico");
-       aero[1].insertarCompania(new Compania("aeroGio"));
-       aero[1].insertarCompania(new Compania("aeroSalim"));
-       aero[1].getCompania("aeroGio").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
-       aero[1].getCompania("aeroGio").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
-       aero[1].getCompania("aeroSalim").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
-       aero[1].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("william", "489320","mexicano"));
-       aero[1].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("salim", "489320","peruano"));
-       aero[1].getCompania("aeroSalim").getVuelo("2").insertarPasajero(new Pasajero("Adrina", "489320","mexicano"));
+       aero[1] = new AeropuertoPublico(400,"ARGENTINA","Buenos aires","Buenos aires");
+       aero[1].insertarCompania(new Compania("Vuelos Che"));
+       aero[1].insertarCompania(new Compania("Vuelos Aires"));
+       aero[1].getCompania("Vuelos Che").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
+       aero[1].getCompania("Vuelos Che").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
+       aero[1].getCompania("Vuelos Aires").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
+       aero[1].getCompania("Vuelos Che").getVuelo("1").insertarPasajero(new Pasajero("Fernando", "489320","mexicano"));
+       aero[1].getCompania("Vuelos Che").getVuelo("1").insertarPasajero(new Pasajero("Salim", "489320","peruano"));
+       aero[1].getCompania("Vuelos Aires").getVuelo("2").insertarPasajero(new Pasajero("Adrian", "489320","mexicano"));
        
-       aero[2] = new AeropuertoPublico(400,"william","merida","mexico");
-       aero[2].insertarCompania(new Compania("aeroGio"));
-       aero[2].insertarCompania(new Compania("aeroSalim"));
-       aero[2].getCompania("aeroGio").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
-       aero[2].getCompania("aeroGio").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
-       aero[2].getCompania("aeroSalim").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
-       aero[2].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("william", "489320","mexicano"));
-       aero[2].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("salim", "489320","peruano"));
-       aero[2].getCompania("aeroSalim").getVuelo("2").insertarPasajero(new Pasajero("Adrina", "489320","mexicano"));
+       aero[2] = new AeropuertoPublico(400,"Peru","Lima","Peru");
+       aero[2].insertarCompania(new Compania("Vuelos PE"));
+       aero[2].insertarCompania(new Compania("Vuelos peru"));
+       aero[2].getCompania("Vuelos PE").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
+       aero[2].getCompania("Vuelos PE").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
+       aero[2].getCompania("Vuelos peru").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
+       aero[2].getCompania("Vuelos PE").getVuelo("1").insertarPasajero(new Pasajero("Fernando", "489320","mexicano"));
+       aero[2].getCompania("Vuelos PE").getVuelo("1").insertarPasajero(new Pasajero("Salim", "489320","peruano"));
+       aero[2].getCompania("Vuelos peru").getVuelo("2").insertarPasajero(new Pasajero("Adrian", "489320","mexicano"));
        
-       aero[3] = new AreopuertoPrivado("william","merida","mexico");
-       aero[3].insertarCompania(new Compania("aeroGio"));
-       aero[3].insertarCompania(new Compania("aeroSalim"));
-       aero[3].getCompania("aeroGio").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
-       aero[3].getCompania("aeroGio").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
-       aero[3].getCompania("aeroSalim").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
-       aero[3].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("william", "489320","mexicano"));
-       aero[3].getCompania("aeroGio").getVuelo("1").insertarPasajero(new Pasajero("salim", "489320","peruano"));
-       aero[3].getCompania("aeroSalim").getVuelo("2").insertarPasajero(new Pasajero("Adrina", "489320","mexicano"));
+       aero[3] = new AreopuertoPrivado("CDMX","Mexico","cdmx");
+       aero[3].insertarCompania(new Compania("Vuelos CDMX"));
+       aero[3].insertarCompania(new Compania("Vuelos MEXICO"));
+       aero[3].getCompania("Vuelos CDMX").insertarVuelo(new Vuelo("1","Lima","Mexico", 140,150));
+       aero[3].getCompania("Vuelos CDMX").insertarVuelo(new Vuelo("2","Lima","Buenos aires", 180,50));
+       aero[3].getCompania("Vuelos MEXICO").insertarVuelo(new Vuelo("2","Lima","Luna", 4000,30));
+       aero[3].getCompania("Vuelos CDMX").getVuelo("1").insertarPasajero(new Pasajero("Fernando", "489320","mexicano"));
+       aero[3].getCompania("Vuelos CDMX").getVuelo("1").insertarPasajero(new Pasajero("Salim", "489320","peruano"));
+       aero[3].getCompania("Vuelos MEXICO").getVuelo("2").insertarPasajero(new Pasajero("Adrian", "489320","mexicano"));
        
       
     }
