@@ -53,10 +53,7 @@ public class Principal {
         aero[2].getCompania("Vuelos PE").getVuelo("1").insertarPasajero(new Pasajero("Salim", "489320", "peruano"));
         aero[2].getCompania("Vuelos peru").getVuelo("2").insertarPasajero(new Pasajero("Adrian", "489320", "mexicano"));
 
-        // empresas un array de string
-        String empresas[] = { "empresa1", "empresa2", "empresa3" };
         aero[3] = new AreopuertoPrivado("CDMX", "Mexico", "cdmx");
-        ((AreopuertoPrivado) aero[3]).insertarEmpresas(empresas);
         aero[3].insertarCompania(new Compania("Vuelos CDMX"));
         aero[3].insertarCompania(new Compania("Vuelos MEXICO"));
         aero[3].getCompania("Vuelos CDMX").insertarVuelo(new Vuelo("1", "Lima", "Mexico", 140, 150));
